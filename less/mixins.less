@@ -1,1 +1,27 @@
 // Mixins Here
+.buttons(@bg,@txtcolor){
+    background: @bg;
+    color: @txtcolor;
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.7rem;
+    font-weight: 600;
+
+
+}
+
+.hover(@hbg,@htxtcolor){
+    background: @hbg;
+    color: @htxtcolor
+}
+
+.text(){
+    margin-top: 60px;
+    border-top: 1px solid @main-border-color;
+    padding: 50px 60px;
+    display: flex;
+    justify-content: center;
+}
